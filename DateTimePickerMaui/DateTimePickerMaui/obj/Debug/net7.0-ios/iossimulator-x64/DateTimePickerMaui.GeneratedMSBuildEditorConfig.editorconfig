@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DateTimePickerMaui
+build_property.ProjectDir = C:\Users\Mous00\source\repos\Datetime-Picker\DateTimePickerMaui\DateTimePickerMaui\
+
+[C:/Users/Mous00/source/repos/Datetime-Picker/DateTimePickerMaui/DateTimePickerMaui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DateTimePickerMaui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Mous00/source/repos/Datetime-Picker/DateTimePickerMaui/DateTimePickerMaui/DateTimePickerView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DateTimePickerMaui.DateTimePickerView.xaml
+build_metadata.AdditionalFiles.TargetPath = DateTimePickerView.xaml
+build_metadata.AdditionalFiles.RelativePath = DateTimePickerView.xaml
+
+[C:/Users/Mous00/source/repos/Datetime-Picker/DateTimePickerMaui/DateTimePickerMaui/DateTimePopupView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DateTimePickerMaui.DateTimePopupView.xaml
+build_metadata.AdditionalFiles.TargetPath = DateTimePopupView.xaml
+build_metadata.AdditionalFiles.RelativePath = DateTimePopupView.xaml
+
+[C:/Users/Mous00/source/repos/Datetime-Picker/DateTimePickerMaui/DateTimePickerMaui/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DateTimePickerMaui.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Mous00/source/repos/Datetime-Picker/DateTimePickerMaui/DateTimePickerMaui/PickerView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DateTimePickerMaui.PickerView.xaml
+build_metadata.AdditionalFiles.TargetPath = PickerView.xaml
+build_metadata.AdditionalFiles.RelativePath = PickerView.xaml
+
+[C:/Users/Mous00/source/repos/Datetime-Picker/DateTimePickerMaui/DateTimePickerMaui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DateTimePickerMaui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Mous00/source/repos/Datetime-Picker/DateTimePickerMaui/DateTimePickerMaui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DateTimePickerMaui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

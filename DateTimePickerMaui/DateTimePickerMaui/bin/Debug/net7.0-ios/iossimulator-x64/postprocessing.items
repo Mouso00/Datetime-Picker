@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="DateTimePickerMaui.app/DateTimePickerMaui">
+      <BCSymbolMapName>DateTimePickerMaui.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>DateTimePickerMaui.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>\Users\DEV\Library\Caches\Xamarin\mtbs\builds\DateTimePickerMaui\106dd861e4891dc671b8836cd911bcc54cd609e5bf1ff9993df37802333a5a66\obj\Debug\net7.0-ios\iossimulator-x64\mtouch-symbols.list</SymbolFile>
+      <DSymName>DateTimePickerMaui.app.dSYM</DSymName>
+      <SourceProjectPath>C:\Users\Mous00\source\repos\Datetime-Picker\DateTimePickerMaui\DateTimePickerMaui</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

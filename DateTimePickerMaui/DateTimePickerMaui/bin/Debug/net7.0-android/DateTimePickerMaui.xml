@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DateTimePickerMaui</name>
+    </assembly>
+    <members>
+        <member name="M:DateTimePickerMaui.DateTimePopupView.OnBackButtonPressed">
+            <summary>
+            Disable back button: return true means disable back button.
+            Enable back button: return false means enable back button 
+            </summary>
+            <returns>it will return true</returns>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableCollectionExtensions.ToCollection``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Api will always retuns us List. so we will convert List to ObservableRangeCollection here.
+            </summary>
+            <typeparam name="T">pass the model</typeparam>
+            <param name="sourceCollection">pass the new data of collection which you want to add</param>
+            <returns>return a collection of <typeparamref name="T"/></returns>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableCollectionExtensions.ReplaceRangeCollection``1(DateTimePickerMaui.ObservableRangeCollection{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            ReplaceRangeCollection :This Extension will help us To replace All Old Items to New Item
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="targetCollection">pass the existing collection</param>
+            <param name="sourceCollection">pass the new data of collection which you want to Replace</param>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableCollectionExtensions.ReloadCollection``1(DateTimePickerMaui.ObservableRangeCollection{``0},System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            ReloadCollection : It will clear previous collection and add full new list
+            </summary>
+            <typeparam name="T">pass the Data type</typeparam>
+            <param name="targetCollection">pass the existing collection</param>
+            <param name="sourceCollection">pass the new data of collection which you want to add</param>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableCollectionExtensions.EzyCount(System.Collections.IEnumerable)">
+            <summary>
+            EzyCount : Get The count of IEnumerable
+            </summary>
+            <param name="source">pass the source</param>
+            <returns>It will return number of items</returns>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableRangeCollection`1.#ctor">
+            <summary>
+            Initializes a new instance of the System.Collections.ObjectModel.ObservableCollection(Of T) class.
+            </summary>  
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableRangeCollection`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Initializes a new instance of the System.Collections.ObjectModel.ObservableCollection(Of
+                T) class that contains elements copied from the specified collection.
+                Exceptions:
+              T:System.ArgumentNullException:
+               The collection parameter cannot be null.
+            </summary>
+            <param name="collection">The collection from which the elements are copied.</param>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableRangeCollection`1.AddRange(System.Collections.Generic.IEnumerable{`0},System.Collections.Specialized.NotifyCollectionChangedAction)">
+            <summary>
+             Adds the elements of the specified collection to the end of the ObservableCollection(Of T)
+            </summary>
+            <param name="collection"></param>
+            <param name="notificationMode"></param>
+            <exception cref="T:System.ArgumentException"></exception>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableRangeCollection`1.RemoveRange(System.Collections.Generic.IEnumerable{`0},System.Collections.Specialized.NotifyCollectionChangedAction)">
+            <summary>
+             Removes the first occurence of each item in the specified collection from ObservableCollection(Of
+                T). NOTE: with notificationMode = Remove, removed items starting index is not
+                set because items are not guaranteed to be consecutive.
+            </summary>
+            <param name="collection"></param>
+            <param name="notificationMode"></param>
+            <exception cref="T:System.ArgumentException"></exception>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableRangeCollection`1.Replace(`0)">
+            <summary>
+             Clears the current collection and replaces it with the specified item.
+            </summary>
+            <param name="item"></param> 
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableRangeCollection`1.ReplaceRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Clears the current collection and replaces it with the specified collection.
+            </summary>
+            <param name="collection"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableRangeCollection`1.AddArrangeCore(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            To Add Arrange Core
+            </summary>
+            <param name="collection"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DateTimePickerMaui.ObservableRangeCollection`1.RaiseChangeNotificationEvents(System.Collections.Specialized.NotifyCollectionChangedAction,System.Collections.Generic.List{`0},System.Int32)">
+            <summary>
+            when Change of property it will raise NotificationEvents
+            </summary>
+            <param name="action"></param>
+            <param name="changedItems"></param>
+            <param name="startingIndex"></param>
+        </member>
+    </members>
+</doc>
